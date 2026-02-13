@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mes Projets - GEII</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">Ton Prénom</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="projets.html" class="active">Mes Projets</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero-small">
+        <h1>Mes Réalisations</h1>
+        <p>Projets académiques et personnels en électronique et informatique.</p>
+    </section>
+
+    <section class="container">
+        <div class="projects-grid">
+            
+            <div class="project-card">
+                <div class="project-content">
+                    <h3>Conception d'une alimentation stabilisée</h3>
+                    <span class="badge">Électronique</span> <span class="badge">Altium</span>
+                    <p>Réalisation complète d'une carte PCB pour une alimentation 5V/12V.</p>
+                    <ul>
+                        <li>Dimensionnement des composants.</li>
+                        <li>Routage sur Altium Designer.</li>
+                        <li>Soudure et tests fonctionnels.</li>
+                    </ul>
+                    <a href="#" class="link">Voir sur GitHub (Bientôt)</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-content">
+                    <h3>Banc de test automatisé</h3>
+                    <span class="badge">LabVIEW</span> <span class="badge">Instrumentation</span>
+                    <p>Développement d'une interface homme-machine (IHM) pour l'acquisition de température.</p>
+                    <ul>
+                        <li>Acquisition via carte NI USB-6008.</li>
+                        <li>Traitement du signal en temps réel.</li>
+                        <li>Enregistrement des données dans un fichier Excel.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-content">
+                    <h3>Robot Suiveur de Ligne</h3>
+                    <span class="badge">C++</span> <span class="badge">Microcontrôleur</span>
+                    <p>Programmation d'un microcontrôleur (STM32 ou Arduino) pour un robot mobile.</p>
+                    <ul>
+                        <li>Asservissement PID des moteurs.</li>
+                        <li>Lecture des capteurs infrarouges.</li>
+                        <li>Optimisation de la trajectoire.</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <div class="project-content">
+                    <h3>Traitement du Signal Audio</h3>
+                    <span class="badge">MATLAB</span>
+                    <p>Analyse spectrale et filtrage numérique d'un signal sonore bruité.</p>
+                    <ul>
+                        <li>Utilisation de la FFT.</li>
+                        <li>Design de filtres RIF/RII.</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 - Ton Nom</p>
+    </footer>
+
+</body>
+</html>
